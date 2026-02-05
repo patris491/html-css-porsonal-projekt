@@ -1,0 +1,101 @@
+:root{
+    --bg: #F54927;
+    --bg-2: #440E03;
+
+    --text: #e5e7eb;
+    --border: #180501;
+    --text2: #a3b0c2;
+}
+
+body{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background: var(--bg);
+    color: var(--text);
+}
+
+#topbar{
+    background: var(--bg-2);
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    border:  2px solid var( --text2);
+}
+
+#header-container{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+#brend_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.brend{
+    text-decoration: none;
+}
+
+.nav_link{
+    color: var(--text);
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+.nav_link:hover{
+    background: var(--text2);
+    color: var(--bg-2);
+    border-radius: 20px;
+}
+
+.hero{
+    text-align: center;
+    padding: 70px 0;
+    background: linear-gradient(180deg, var(--bg), var(--bg-2));
+}
+
+#hero_title{
+    font-size: 40px;
+    margin: 15px;
+
+}
+ 
+#hero_p{
+    font-size: 20px;
+    color: var(--text2)
+}
+
+#hero_img{
+    margin: 0 50px;
+}
+
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 50px;
+ margin: 30px;
+text-align: center;
+}
+
+.stats_value{
+font-size: 20px;
+font-weight: bold;
+}
+
+.stats_label{
+    color: var(--text);
+  
+}
+
+.stats{
+    border: 1px solid var(--border);
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;    
+}
