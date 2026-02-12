@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="topbar">
+        <p>Please contact us if an animal is in need</p>
+    </div>
+    <header>
+        <div id="header-container">
+            <a href="index.html" class="brand"><span id="brend_name">Animal Rescue</span></a>
+            <nav>
+                <a href="index.html" class="nav_link">Home</a>
+                <a href="contectus.html" class="nav_link">Contact us</a>
+                <a href="donate.html" class="nav_link">Our animals</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-section">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h1>Contact Us</h1>
+                    <p>If an animal is in need, please contact us immediately using the phone numbers or the form.</p>
+
+                    <table id="contact-table" aria-label="Contact numbers and working hours">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Working hours</th>
+                                <th>Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rescue team</td>
+                                <td>24/7</td>
+                                <td>044-111-111</td>
+                            </tr>
+                            <tr>
+                                <td>Office</td>
+                                <td>Mon-Fri 09:00-17:00</td>
+                                <td>044-222-222</td>
+                            </tr>
+                            <tr>
+                                <td>Volunteer coordinator</td>
+                                <td>Tue-Sat 10:00-16:00</td>
+                                <td>044-333-333</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="address">
+                        <h2>Address & Email</h2>
+                        <p>123 Rescue Lane, Kindness City</p>
+                        <p>Email: <a href="mailto:info@animalrescue.example">info@animalrescue.example</a></p>
+                    </div>
+                </div>
+
+                <aside class="contact-form">
+                    <h2>Send us a message</h2>
+                    <form id="contactForm" action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                    <div class="map-placeholder" aria-hidden="true">
+                        <p>Map placeholder — embed a real map here later.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

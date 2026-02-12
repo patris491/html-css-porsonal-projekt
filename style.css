@@ -143,3 +143,48 @@ font-weight: bold;
     color: var(--text);
     background: var(--bg);
 }
+
+#contact-table {
+        width: 100%;
+        border-collapse: collapse;
+        max-width: 800px;
+        margin: 1rem auto;  
+}
+
+        #contact-table th, #contact-table td {
+        border: 1px solid #333;
+        padding: 0.6rem;
+        text-align: left;
+    }
+
+       #contact-table th { background: #020000; }
+    @media (max-width: 600px) {
+        #contact-table, #contact-table thead, #contact-table tbody, #contact-table th, #contact-table td, #contact-table tr { display: block; }
+        #contact-table tr { margin-bottom: 1rem; border-bottom: 1px solid #ddd; }
+        #contact-table td { padding-left: 50%; position: relative; }
+        #contact-table td:before { position: absolute; left: 8px; width: 45%; white-space: nowrap; font-weight: bold; }
+        #contact-table td:nth-of-type(1):before { content: "Item"; }
+        #contact-table td:nth-of-type(2):before { content: "Working hours"; }
+        #contact-table td:nth-of-type(3):before { content:  "Number"; }
+    }
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.contact-info h1{
+    margin: 0 0 0.5rem 0;
+    color: var(--text);
+    font-size: 32px;
+}
+
+.contact-info p{ color: var(--text2); margin-bottom: 1rem; }
+
+.address h2{ margin-top: 1.2rem; font-size: 18px; color: var(--text); }
+.address p{ margin: 0.2rem 0; color: var(--text2); }
+
