@@ -212,11 +212,6 @@ p { margin: 0 0 1rem; font-size: 1rem; color: var(--text2); }
 
 .contact-form {
   display: grid;
-  gap: 12px;
-  grid-template-columns: 1fr 1fr;
-}
-.contact-form .full {
-  grid-column: 1 / -1;
 }
 
 .contact-form label {
@@ -279,4 +274,9 @@ p { margin: 0 0 1rem; font-size: 1rem; color: var(--text2); }
 @media (max-width:600px) {
   .animals-grid { grid-template-columns: 1fr; padding: 0 12px; }
   .animal-card img { height:180px; }
+}
+.buttonform{
+    padding:5px 10px;
+    color: var(--text);
+    background: var(--bg);
 }
